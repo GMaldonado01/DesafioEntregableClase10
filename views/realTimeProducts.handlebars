@@ -11,7 +11,7 @@
 
 <script>
     const socketClient = io()
-socketClient.on("updateProducts", allProducts => {
+    socketClient.on("updateProducts", allProducts => {
         console.log({allProducts})
     })
 </script>
